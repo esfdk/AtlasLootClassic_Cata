@@ -84,7 +84,7 @@ data["ArgentCrusade"] = {
 				{ 1, "f1158rep7" },
 				{ 2, 62378 },	-- Acorn of the Daughter Tree
 				{ 3, 62382 },	-- Waywatcher's Boots
-				{ 4, 62381 },	-- Aessina-Blessed Gloves 
+				{ 4, 62381 },	-- Aessina-Blessed Gloves
 				{ 5, 62380 },	-- Wilderness Legguards
 				{ 17, 62367 },	-- Arcanum of Hyjal
 			},

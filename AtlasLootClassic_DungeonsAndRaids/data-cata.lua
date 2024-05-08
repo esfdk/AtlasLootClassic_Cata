@@ -138,3 +138,5 @@ data["Deadmines"] = {
             [BETA_DIFF] = {
             }
         },
+	}
+}
