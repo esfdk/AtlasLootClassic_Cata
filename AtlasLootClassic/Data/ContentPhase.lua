@@ -17,27 +17,20 @@ local ACTIVE_PHASE = ACTIVE_PHASE_LIST[AtlasLoot:GetGameVersion()] or ACTIVE_PHA
 --##START-DATA##
 local PHASE_ITEMS = {}
 if AtlasLoot:GameVersion_EQ(AtlasLoot.CLASSIC_VERSION_NUM) then
-    PHASE_ITEMS = {
-
-    }
+    PHASE_ITEMS = { }
 end
 
 if AtlasLoot:GameVersion_EQ(AtlasLoot.BC_VERSION_NUM) then
-    PHASE_ITEMS = {
-
-    }
+    PHASE_ITEMS = { }
 end
 
 if AtlasLoot:GameVersion_EQ(AtlasLoot.WRATH_VERSION_NUM) then
-    PHASE_ITEMS = {	
-	
-	}
+    PHASE_ITEMS = {	}
 end
 
     -- TODO: cata phase items
 if AtlasLoot:GameVersion_EQ(AtlasLoot.CATA_VERSION_NUM) then
-    PHASE_ITEMS = {
-    }
+    PHASE_ITEMS = { }
 end
 
 --##END-DATA##

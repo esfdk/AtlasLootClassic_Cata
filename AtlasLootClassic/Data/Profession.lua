@@ -4274,13 +4274,6 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.WRATH_VERSION_NUM) then
     }
 end
 
-local PROFESSION, PROFESSION_DATA = AtlasLoot:GetGameVersionDataTable()
-PROFESSION_DATA.CLASSIC = {
-	-- [spellID] = { createdItemID, prof, minLvl, lowLvl, highLvl, reagents{}, reagentsCount{}, numCreatedItems }
-	-- TODO: cata prof items
-	}
-end
-
 local PROFESSION_ITEM_SKILL, PROFESSION_ITEM_SKILL_DATA = AtlasLoot:GetGameVersionDataTable()
 PROFESSION_ITEM_SKILL_DATA.CLASSIC = {
     -- Herb
