@@ -32,6 +32,7 @@ local PROFESSION_NAME = {
     [13] = ALIL["Poisons"],        -- Poisons
     [14] = ALIL["Jewelcrafting"],  -- Jewelcrafting
 	[15] = ALIL["Inscription"],    -- Inscription
+	[16] = ALIL["Archaeology"],    -- Archaeology
 }
 
 local PROFESSION_TEXT_MAX_LENGTH = 15
@@ -69,6 +70,7 @@ local PROFESSION_ICON = {
     [13] = GetSpellTexture(2842), -- Rogue: Poisons
     [14] = 134071,                -- Jewelcrafting
 	[15] = 237171,     			  -- Inscription
+	[16] = 441139,     			  -- Archaeology
 }
 
 local PROFESSION, PROFESSION_DATA = AtlasLoot:GetGameVersionDataTable()
@@ -4270,6 +4272,13 @@ if AtlasLoot:GameVersion_GE(AtlasLoot.WRATH_VERSION_NUM) then
 		[72953] = {52021,9,450,440,460,{37703},{2},1000},
 		[75597] = {54797,8,425,435,455,{41594,41595,41593,43102},{1,1,1,4}},
     }
+end
+
+local PROFESSION, PROFESSION_DATA = AtlasLoot:GetGameVersionDataTable()
+PROFESSION_DATA.CLASSIC = {
+	-- [spellID] = { createdItemID, prof, minLvl, lowLvl, highLvl, reagents{}, reagentsCount{}, numCreatedItems }
+	-- TODO: cata prof items
+	}
 end
 
 local PROFESSION_ITEM_SKILL, PROFESSION_ITEM_SKILL_DATA = AtlasLoot:GetGameVersionDataTable()

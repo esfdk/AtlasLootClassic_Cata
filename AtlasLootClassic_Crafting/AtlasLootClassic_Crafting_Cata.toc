@@ -44,4 +44,3 @@ private.lua
 data.lua
 data-tbc.lua
 data-wrath.lua
-data-cata.lua

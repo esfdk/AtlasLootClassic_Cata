@@ -55,7 +55,7 @@ local FILTER_DATA = {
         ["INVTYPE_THROWN"] = true,			-- Thrown
         ["INVTYPE_RANGEDRIGHT"] = true,		-- Ranged
         ["INVTYPE_QUIVER"] = C.HUNTER,			-- Quiver
-        ["INVTYPE_RELIC"] = C.SHAMAN + C.PALADIN + C.DRUID,			-- Relic
+        ["INVTYPE_RELIC"] = C.SHAMAN + C.PALADIN + C.DRUID + C.DEATHKNIGHT,			-- Relic
     },
     itemClass = {
         [10] 			                    = true, -- Moneys
@@ -148,7 +148,7 @@ local FILTER_DATA = {
             [LE_ITEM_ARMOR_IDOL] 	    = C.DRUID, -- Idols
             [LE_ITEM_ARMOR_TOTEM] 	    = C.SHAMAN, -- Totems
             --[LE_ITEM_ARMOR_SIGIL] 	    = true, -- Sigils (DK)
-            [LE_ITEM_ARMOR_RELIC] 	    = C.SHAMAN + C.PALADIN + C.DRUID, -- Relic
+            [LE_ITEM_ARMOR_RELIC] 	    = C.SHAMAN + C.PALADIN + C.DRUID , -- Relic
         },
         [LE_ITEM_CLASS_REAGENT] = {
             [0] = true, -- Reagent
