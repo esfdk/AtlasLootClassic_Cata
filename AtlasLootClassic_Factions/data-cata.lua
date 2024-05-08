@@ -63,7 +63,7 @@ end
 8 - Exalted
 ]]--
 
-data["ArgentCrusade"] = {
+data["GuardiansHyjal"] = {
 	FactionID = 1158,
 	ContentType = FACTIONS_CONTENT,
 	LoadDifficulty = LOAD_DIFF,
@@ -104,6 +104,98 @@ data["ArgentCrusade"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "f1158rep5" },
 				{ 2, 65906 },	-- Tabard of the Guardians of Hyjal
+			},
+		},
+	},
+}
+
+data["DragonmawClan"] = {
+	FactionID = 1172,
+	ContentType = FACTIONS_HORDE_CONTENT,
+	LoadDifficulty = LOAD_DIFF,
+	items = {
+		{ -- Exalted 8
+			name = ALIL["Exalted"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep8" },
+				{ 2, 62416 },	-- 
+				{ 3, 62418 },	-- 
+				{ 4, 62417 },	-- 
+				{ 5, 62420 },	-- 
+			},
+		},
+		{ -- Revered 7
+			name = ALIL["Revered"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep7" },
+				{ 2, 62415 },	-- 
+				{ 3, 62408 },	-- 
+				{ 4, 62409 },	-- 
+				{ 5, 62410 },	-- 
+				{ 17, 62368 },	-- 
+			},
+		},
+		{ -- Honored 6
+			name = ALIL["Honored"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep6" },
+				{ 2, 62406 },	-- 
+				{ 3, 62404 },	-- 
+				{ 4, 62405 },	-- 
+				{ 5, 62407 },	-- 
+			},
+		},
+		{ -- Friendly 5
+			name = ALIL["Friendly"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep5" },
+				{ 2, 65909 },	-- Tabard
+			},
+		},
+	},
+}
+
+data["WildhammerClan"] = {
+	FactionID = 1174,
+	ContentType = FACTIONS_ALLI_CONTENT,
+	LoadDifficulty = LOAD_DIFF,
+	items = {
+		{ -- Exalted 8
+			name = ALIL["Exalted"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep8" },
+				{ 2, 62416 },	-- 
+				{ 3, 62418 },	-- 
+				{ 4, 62417 },	-- 
+				{ 5, 62420 },	-- 
+			},
+		},
+		{ -- Revered 7
+			name = ALIL["Revered"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep7" },
+				{ 2, 62415 },	-- 
+				{ 3, 62408 },	-- 
+				{ 4, 62409 },	-- 
+				{ 5, 62410 },	-- 
+				{ 17, 62422 },	-- 
+			},
+		},
+		{ -- Honored 6
+			name = ALIL["Honored"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep6" },
+				{ 2, 62406 },	-- 
+				{ 3, 62404 },	-- 
+				{ 4, 62405 },	-- 
+				{ 5, 62407 },	-- 
+			},
+		},
+		{ -- Friendly 5
+			name = ALIL["Friendly"],
+			[NORMAL_DIFF] = {
+				{ 1, "f1158rep5" },
+				{ 2, 65908 },	-- Tabard
 			},
 		},
 	},
