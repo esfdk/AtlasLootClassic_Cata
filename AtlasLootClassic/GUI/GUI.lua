@@ -533,7 +533,7 @@ local function GameVersionSelect_OnClick(self, mouseButton)
 			local wrathButton = createGVButton(AtlasLoot.WRATH_VERSION_NUM, GAME_VERSION_TEXTURES[AtlasLoot.WRATH_VERSION_NUM])
 			wrathButton:SetPoint("TOP", frame.buttons[#frame.buttons-1], "BOTTOM", 0, -buttonGap)
 		end
-		
+
 		if AtlasLoot:GameVersion_GE(AtlasLoot.CATA_VERSION_NUM) then
 			local cataButton = createGVButton(AtlasLoot.CATA_VERSION_NUM, GAME_VERSION_TEXTURES[AtlasLoot.CATA_VERSION_NUM])
 			cataButton:SetPoint("TOP", frame.buttons[#frame.buttons-1], "BOTTOM", 0, -buttonGap)
